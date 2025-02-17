@@ -15,7 +15,7 @@ A browser extension that **displays estimated shipping costs** directly on the l
    - Right-click the ZIP file and choose **Extract All...**  
    - Ensure the extracted folder contains `manifest.json` and other extension files.  
 3. **Load the Extension in Chrome**  
-   - Open **Google Chrome** and go to:  
+   - Open your **Web Browser** and go to:  
      ```
      chrome://extensions/
      ```
