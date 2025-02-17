@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Goodwill Shipping Info",
+  "version": "1.1",
+  "description": "Displays shipping costs on ShopGoodwill.com based on your zip code",
+  "permissions": ["storage"],
+  "host_permissions": ["https://buyerapi.shopgoodwill.com/*"],
+  "options_page": "options.html",
+  "icons": {
+    "256": "icon256.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://shopgoodwill.com/*",
+        "https://www.shopgoodwill.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com;"
+  }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Extension Options</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+      body { font-family: 'Open Sans', sans-serif; background: #f4f4f4; margin: 0; padding: 20px; color: #333; }
+      .container { background: #fff; max-width: 400px; margin: 40px auto; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+      h2 { text-align: center; margin-bottom: 20px; }
+      label { display: block; margin-bottom: 8px; font-weight: 600; }
+      input[type="text"] { width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px; }
+      button { width: 100%; padding: 10px; background-color: #28a745; border: none; border-radius: 4px; color: #fff; font-size: 16px; cursor: pointer; }
+      button:hover { background-color: #218838; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Set Your Zip Code</h2>
+      <label for="zip">Zip Code:</label>
+      <input type="text" id="zip" placeholder="Enter 5-digit zip code">
+      <div id="error" style="color: red; margin-bottom: 10px; display: none;"></div>
+      <button id="save">Save Zip Code</button>
+    </div>
+    <script src="options.js"></script>
+  </body>
+</html>
