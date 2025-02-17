@@ -2,9 +2,8 @@
 A browser extension that **displays estimated shipping costs** directly on the listings page of [ShopGoodWill.com](https://www.shopgoodwill.com), based on your zip code.  
 
 ## Features  
-✅ Automatically detects your zip code (set via options).  
-✅ Displays estimated shipping costs on item listings.  
-✅ Uses a fallback method for items with missing shipping data.  
+Displays estimated shipping costs on item listings using the provided ZIP code.  
+Uses a fallback method for items with missing shipping data.  
 
 ## Installation  
 ### Option 1: Download & Install Manually  
@@ -36,4 +35,4 @@ git clone https://github.com/TwoBrainzz/ShopGoodWill-Shipping-Displayer.git
 4. Select **Options** from the menu.  
 5. Enter your zip code in the input field and click **Save**.  
 
-The extension will now display estimated shipping costs on ShopGoodWill listings! 🚀
+The extension will now display estimated shipping costs on ShopGoodWill listings!
